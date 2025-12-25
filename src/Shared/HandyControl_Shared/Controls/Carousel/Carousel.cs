@@ -196,7 +196,7 @@ public class Carousel : SimpleItemsControl, IDisposable
     /// <summary>
     ///     页码改变事件
     /// </summary>
-    public EventHandler<int> PageIndexChanged;
+    public event EventHandler<int> PageIndexChanged;
 
     /// <summary>
     ///     计时器开关
